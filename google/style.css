@@ -1,0 +1,100 @@
+body{
+    background-color: ghostwhite;
+    font-family: Arial;
+    width: 500px;
+    height: 900px;
+}
+a{
+    text-decoration: none;
+    float:left;
+    text-align: center;
+    
+}
+div{
+    margin: o;
+    padding: 0;
+}
+#logo{
+    transform: translateY(250px);
+    padding-left: 550px;
+    
+}
+
+#search{
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+#search label{
+    text-align: center;
+    border: none;
+}
+#search input{
+    margin-left: 450px ;
+    padding-left: 200px;
+    background-color: gainsboro;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+}
+
+.gmail{
+    background-color: whitesmoke;
+    color: grey;
+    display: block;
+    padding: 10px 10px 20px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.youtube{
+    background-color: whitesmoke;
+    color: grey;
+    display: block;
+    padding: 10px 10px 20px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+.gmail:hover,.youtube:hover{
+    background-color: #bbb;
+    color: black;
+}
+.gmail::after,.youtube::after{
+    color: whitesmoke;
+    content: "\2807";
+    float: right;
+    margin-top: -90px;
+    transition: 0.3s;
+    
+}
+.gmail img{
+    background-color: #bbb;
+    border-radius: 100%;
+    padding: 5px;
+}
+.youtube img{
+    background-color: #bbb;
+    border-radius: 100%;
+    padding: 5px;
+}
+.gmail h3,.youtube h3{
+    margin: 0;
+    font-weight: normal;
+}
+.gmail:hover::after,
+.youtube:hover::after{
+    color: black;
+}
+
+.bloc1 div{
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    
+    
+}
+
